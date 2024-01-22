@@ -1,17 +1,16 @@
 "use client"
 import React ,{useState} from 'react'
-
+import Header from "@/components/Header"
 
 const page = () => {
-  
-const [mark, setMark] = useState(80)
+
+const [user, setUser] = useState("Naveen");
+
   return (<>
-   <h2>my name is naveen</h2>
-   <p>I scored { mark} marks in my final exam.</p>
 
- 
-   <button onClick={()=> { setMark(90)}} className='rounded px-5 py-3 mt-9 text-red-500 font-bold'>update</button>
-
+  <Header user={user} />
+   
+  
   </>
     
   )
