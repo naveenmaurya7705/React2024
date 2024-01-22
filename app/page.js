@@ -8,7 +8,6 @@ const [user, setUser] = useState("Naveen");
 
   return (<>
 
-  <Header user={user} />
    <h1>
  This is Home page
    </h1>

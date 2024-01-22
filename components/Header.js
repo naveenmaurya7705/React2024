@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Header = (props) => {
   return ( <>
     <div className='h-12 px-4 bg-green-400  flex items-center justify-between'>
-  <h2>{props.user}</h2>
+  <h2>logo</h2>
   <div className='flex gap-4'>
     <Link  href='/Career'><h4>Career </h4></Link>
     <Link href='/Services'> <h4>Services </h4></Link>
