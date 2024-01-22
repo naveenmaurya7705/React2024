@@ -9,7 +9,9 @@ const [user, setUser] = useState("Naveen");
   return (<>
 
   <Header user={user} />
-   
+   <div>
+    
+   </div>
   
   </>
     
